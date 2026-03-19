@@ -54,7 +54,7 @@ A robust, full-featured web-based Quiz Application built with **Python (Flask)**
 Navigate to the project folder and install the required dependencies:
 
 ```bash
-pip install flask python-dotenv fpdf
+pip install -r requirements.txt
 ```
 
 ### 3. Configuration
@@ -89,6 +89,7 @@ Quiz_App/
 ├── quiz_app.db          # Database file (Auto-generated)
 ├── .env                 # Configuration secrets
 ├── README.md            # Project documentation
+├── requirements.txt
 └── templates/           # (Templates are currently embedded in .py for portability)
 ```
 </details>
